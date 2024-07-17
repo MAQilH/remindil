@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "local": "ng serve --host 0.0.0.0",
     "serve:ssr:remindil": "node dist/remindil/server/server.mjs"
   },
   "private": true,
@@ -22,7 +23,10 @@
     "@angular/router": "^18.1.0",
     "@angular/ssr": "^18.1.0",
     "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
     "express": "^4.18.2",
+    "jquery": "^3.7.1",
+    "popper.js": "^1.16.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"

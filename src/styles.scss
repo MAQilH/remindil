@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@import "bootstrap-icons/font/bootstrap-icons.css";
+.vertical-center {
+  height:100%;
+  width:100%;
+
+  text-align: center;
+  font: 0/0 a;
+}
+
+.vertical-center:before {
+  content: " ";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.vertical-center > * {
+  max-width: 100%;
+
+  display: inline-block;
+  vertical-align: middle;
+
+  font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
